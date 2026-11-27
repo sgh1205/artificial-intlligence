@@ -1,0 +1,22 @@
+{
+  "name": "ai-learning-compass",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "大学生人工智能学习指南 · 纯前端 Vue 项目",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build --config vite.config.local.js && node scripts/build-local.mjs",
+    "build:web": "vite build",
+    "build:local": "vite build --config vite.config.local.js && node scripts/build-local.mjs",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.5.13",
+    "vue-router": "^4.5.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.1",
+    "vite": "^6.0.7"
+  }
+}
